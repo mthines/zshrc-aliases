@@ -1,0 +1,2 @@
+# ZSHRC-Aliases
+ZSHRC Aliases
