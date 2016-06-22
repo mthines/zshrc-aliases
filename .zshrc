@@ -106,6 +106,11 @@ alias rapache='sudo apachectl restart'
 alias rmysql='sudo mysql.server restart'
 
 #
+# MySQL
+#
+alias loaddump='mysql -uroot -p'
+
+#
 # Git Aliases
 #
 alias gds='git diff --staged'
@@ -136,8 +141,8 @@ alias badass='dcd && drr && dcd && dfra && dca'
 alias smartass='dcd && drr && drush updb -y && dcd && dfra && dca'
 alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 --yes'
 alias encssjs='drush vset preprocess_css 1 --yes && drush vset preprocess_js 1 --yes'
-alias dendebug='drush vset theme_debug 1 && dca'
-alias disdebug='drush vset theme_debug 0 && dca'
+alias dentdebug='drush vset theme_debug 1 && dca'
+alias distdebug='drush vset theme_debug 0 && dca'
 alias denmessages='ddrush vset -y error_level 1'
 alias dismessages='ddrush vset -y error_level 0'
 alias .build='./build.sh'
