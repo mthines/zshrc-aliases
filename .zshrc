@@ -84,15 +84,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #
-# Project Jumper - Go To ...
+# Personal Zsh Commands
+# Includes .zshrc-persona file
 #
-alias @rz='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet'
-alias @rzt='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet/themes/custom/rezet_theme'
-alias @sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster'
-alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
-alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
-alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
-alias @apache='cd ~/../../etc/apache2/extra'
+source .zshrc-persona
 
 #
 # General Aliases
