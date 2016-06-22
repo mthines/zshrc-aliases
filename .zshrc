@@ -87,15 +87,28 @@ source $ZSH/oh-my-zsh.sh
 # Project Jumper - Go To ...
 #
 alias @rz='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet'
+alias @rzt='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet/themes/custom/rezet_theme'
 alias @sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster'
 alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
 alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
+alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
+alias @apache='cd ~/../../etc/apache2/extra'
 
 #
 # General Aliases
 #
 alias czsh='st ~/.zshrc'
-alias refrezsh='. ~/.bashrc && . ~/.zshrc '
+alias capache='st ~/../../etc/apache2/extra/httpd-vhosts.conf'
+alias chosts='st ~/../../private/etc/hosts'
+alias cdrush='st ~/.drush/aliases.drushrc.php'
+alias refrezsh='. ~/.bashrc && . ~/.zshrc'
+alias findme='sudo find / -name'
+
+#
+# Restarters
+#
+alias rapache='sudo apachectl restart'
+alias rmysql='sudo mysql.server restart'
 
 #
 # Git Aliases
@@ -109,6 +122,7 @@ alias gsa='git stash apply'
 alias gsh='git show'
 alias gre='git revert'
 alias gmn='git merge --no-ff'
+alias gutd='gfa && git pull'
 
 #
 # Drush Aliases
@@ -129,6 +143,10 @@ alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 
 alias encssjs='drush vset preprocess_css 1 --yes && drush vset preprocess_js 1 --yes'
 alias dendebug='drush vset theme_debug 1 && dca'
 alias disdebug='drush vset theme_debug 0 && dca'
+alias denmessages='ddrush vset -y error_level 1'
+alias dismessages='ddrush vset -y error_level 0'
+alias .build='./build.sh'
+alias .install='./install.sh'
 
 #
 # NPM Aliases
