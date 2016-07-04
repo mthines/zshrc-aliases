@@ -158,3 +158,4 @@ alias nins='npm install'
 export PATH=$PATH:/Users/mads/bin/
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
