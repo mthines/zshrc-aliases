@@ -104,6 +104,7 @@ alias findme='sudo find / -name'
 #
 alias rapache='sudo apachectl restart'
 alias rmysql='sudo mysql.server restart'
+alias rmacdock='killall -KILL Dock'
 
 #
 # MySQL
@@ -143,8 +144,8 @@ alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 
 alias encssjs='drush vset preprocess_css 1 --yes && drush vset preprocess_js 1 --yes'
 alias dentdebug='drush vset theme_debug 1 && dca'
 alias distdebug='drush vset theme_debug 0 && dca'
-alias denmessages='ddrush vset -y error_level 1'
-alias dismessages='ddrush vset -y error_level 0'
+alias denmessages='drush vset -y error_level 1'
+alias dismessages='drush vset -y error_level 0'
 alias .build='./build.sh'
 alias .install='./install.sh'
 
