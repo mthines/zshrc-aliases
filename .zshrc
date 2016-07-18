@@ -90,6 +90,11 @@ source $ZSH/oh-my-zsh.sh
 source ./.zshrc-persona
 
 #
+# Go To Aliases
+#
+alias @solr='cd /usr/local/Cellar/solr4/4.10.4'
+
+#
 # General Aliases
 #
 alias czsh='st ~/.zshrc'
@@ -116,6 +121,7 @@ alias loaddump='mysql -uroot -p'
 #
 alias gds='git diff --staged'
 alias gln='git log --name-status'
+alias gull='git pull'
 alias gpl='git pull origin'
 alias gps='git push origin'
 alias gs='git stash'
