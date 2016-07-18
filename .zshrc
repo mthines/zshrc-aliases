@@ -87,7 +87,7 @@ source $ZSH/oh-my-zsh.sh
 # Personal Zsh Commands
 # Includes .zshrc-persona file
 #
-source ./.zshrc-persona
+source ~/.zshrc-persona
 
 #
 # Go To Aliases
