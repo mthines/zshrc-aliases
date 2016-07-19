@@ -21,4 +21,4 @@ source ~/.zsh-alises/.zshrc-persona
 source ~/.zsh-alises/.zshrc-aliases
 ```
 
-- 3. Enjoy the aliases for a faster workflow.
+- 3. Reopen your terminal and enjoy the aliases for a faster workflow.
