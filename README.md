@@ -22,7 +22,7 @@ source ~/.zsh-aliases/.zshrc-aliases
 ```
 Or
 ```
-echo "source ~/.zsh-alises/.zshrc-persona" >> ~/.zshrc && echo "source ~/.zsh-alises/.zshrc-aliases" >> ~/.zshrc
+echo "source ~/.zsh-aliases/.zshrc-persona" >> ~/.zshrc && echo "source ~/.zsh-aliases/.zshrc-aliases" >> ~/.zshrc
 ```
 
 - 3. Reopen your terminal and enjoy the aliases for a faster workflow.
