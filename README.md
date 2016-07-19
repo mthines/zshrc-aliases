@@ -12,7 +12,7 @@ Great, right?
 #### Setup
 - 1. Run the following command in your root folder where the .zsh file is located.
 ```
-Git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
+git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
 ```
 
 - 2. Run the following command
