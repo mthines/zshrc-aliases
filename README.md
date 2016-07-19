@@ -17,8 +17,8 @@ Git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
 
 - 2. Add the following lines in the bottom of your .zsh file
 ```
-source ~/.zsh-alises/.zshrc-persona
-source ~/.zsh-alises/.zshrc-aliases
+source ~/.zsh-aliases/.zshrc-persona
+source ~/.zsh-aliases/.zshrc-aliases
 ```
 Or
 ```
