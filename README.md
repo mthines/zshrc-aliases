@@ -8,6 +8,7 @@ Great, right?
 #### Dependencies
 - Bash Terminal
 - Oh My Zsh.
+- Sublime Text / Or you need to find/replace
 
 #### Setup
 - 1. Run the following command in your root folder where the .zsh file is located.
