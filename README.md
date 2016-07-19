@@ -15,10 +15,14 @@ Great, right?
 Git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
 ```
 
-- 2. Add the following lines in the bottom of your .zsh file
+- 2. Run the following command
 ```
-source ~/.zsh-alises/.zshrc-persona
-source ~/.zsh-alises/.zshrc-aliases
+echo "source ~/.zsh-aliases/.zshrc-persona" >> ~/.zshrc && echo "source ~/.zsh-aliases/.zshrc-aliases" >> ~/.zshrc
+```
+Or add the following lines in the bottom of your .zsh file
+```
+source ~/.zsh-aliases/.zshrc-persona
+source ~/.zsh-aliases/.zshrc-aliases
 ```
 
 - 3. Reopen your terminal and enjoy the aliases for a faster workflow.
