@@ -1,9 +1,4 @@
 #
-# Go To Aliases
-#
-alias @solr='cd /usr/local/Cellar/solr4/4.10.4'
-
-#
 # Restarters
 #
 alias rapache='sudo apachectl restart'
