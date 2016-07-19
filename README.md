@@ -20,5 +20,9 @@ Git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
 source ~/.zsh-alises/.zshrc-persona
 source ~/.zsh-alises/.zshrc-aliases
 ```
+Or
+```
+echo "source ~/.zsh-alises/.zshrc-persona" >> ~/.zshrc && echo "source ~/.zsh-alises/.zshrc-aliases" >> ~/.zshrc
+```
 
 - 3. Reopen your terminal and enjoy the aliases for a faster workflow.
