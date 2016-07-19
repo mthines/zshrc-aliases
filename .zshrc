@@ -88,78 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # Includes .zshrc-persona file
 #
 source ~/.zshrc-persona
-
-#
-# Go To Aliases
-#
-alias @solr='cd /usr/local/Cellar/solr4/4.10.4'
-
-#
-# General Aliases
-#
-alias czsh='st ~/.zshrc'
-alias capache='st ~/../../etc/apache2/extra/httpd-vhosts.conf'
-alias chosts='st ~/../../private/etc/hosts'
-alias cdrush='st ~/.drush/aliases.drushrc.php'
-alias refrezsh='. ~/.bashrc && . ~/.zshrc'
-alias findme='sudo find / -name'
-
-#
-# Restarters
-#
-alias rapache='sudo apachectl restart'
-alias rmysql='sudo mysql.server restart'
-alias rmacdock='killall -KILL Dock'
-
-#
-# MySQL
-#
-alias loaddump='mysql -uroot -p'
-
-#
-# Git Aliases
-#
-alias gds='git diff --staged'
-alias gln='git log --name-status'
-alias gull='git pull'
-alias gpl='git pull origin'
-alias gps='git push origin'
-alias gs='git stash'
-alias gsa='git stash apply'
-alias gsh='git show'
-alias gre='git revert'
-alias gmn='git merge --no-ff'
-alias gutd='gfa && git pull'
-
-#
-# Drush Aliases
-#
-alias dr='drush'
-alias den='drush en'
-alias dis='drush dis'
-alias dca='drush cc all'
-alias dcd='drush cc drush'
-alias dfra='drush fra -y'
-alias drr='drush rr'
-alias dfr='drush fr'
-alias dfd='drush fd'
-alias dfu='drush fu'
-alias badass='dcd && drr && dcd && dfra && dca'
-alias smartass='dcd && drr && drush updb -y && dcd && dfra && dca'
-alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 --yes'
-alias dencssjs='drush vset preprocess_css 1 --yes && drush vset preprocess_js 1 --yes'
-alias dentdebug='drush vset theme_debug 1 && dca'
-alias distdebug='drush vset theme_debug 0 && dca'
-alias denmessages='drush vset -y error_level 1'
-alias dismessages='drush vset -y error_level 0'
-alias .build='./build.sh'
-alias .install='./install.sh'
-
-#
-# NPM Aliases
-#
-alias nrw='npm run watch'
-alias nins='npm install'
+source ~/.zshrc-aliases
 
 export PATH=$PATH:/Users/mads/bin/
 

@@ -8,3 +8,13 @@ alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
 alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
 alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
 alias @apache='cd ~/../../etc/apache2/extra'
+
+#
+# General Aliases
+#
+alias czsh='st ~/.zshrc'
+alias capache='st ~/../../etc/apache2/extra/httpd-vhosts.conf'
+alias chosts='st ~/../../private/etc/hosts'
+alias cdrush='st ~/.drush/aliases.drushrc.php'
+alias refrezsh='. ~/.bashrc && . ~/.zshrc'
+alias findme='sudo find / -name'
