@@ -1,17 +1,22 @@
 #
 # Project Jumper - Go To ...
 #
-# alias @dt='cd ~/Sites/directory/htdocs/profiles/rezet'
-
+alias @rz='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet'
+alias @sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster'
+alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
+alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
+alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
+alias @apache='cd ~/../../etc/apache2/extra'
+alias @solr='cd /usr/local/Cellar/solr4/4.10.4'
 
 #
 # General Aliases
 #
-alias czsh='st ~/.zshrc-aliases'
-alias czsh-persona='st ~/.zshrc-persona'
-alias czshrc='st ~/.zshrc'
-alias capache='st ~/../../etc/apache2/extra/httpd-vhosts.conf'
-alias chosts='st ~/../../private/etc/hosts'
-alias cdrush='st ~/.drush/aliases.drushrc.php'
+alias czsh='subl ~/.zsh-aliases/.zshrc-aliases'
+alias czsh-persona='subl ~/.zsh-aliases/.zshrc-persona'
+alias czshrc='subl ~/.zshrc'
+alias capache='subl ~/../../etc/apache2/extra/httpd-vhosts.conf'
+alias chosts='subl ~/../../private/etc/hosts'
+alias cdrush='subl ~/.drush/aliases.drushrc.php'
 alias refrezsh='. ~/.bashrc && . ~/.zshrc'
 alias findme='sudo find / -name'
