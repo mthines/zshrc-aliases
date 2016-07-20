@@ -1,20 +1,14 @@
 # ZSHRC-Aliases
-ZSHRC Aliases
-
-#### What's it for?
+## What's it for?
 Using aliases decreases your workload by decreasing the amount of typing, which will increases your overall performance.
 Great, right?
-
-#### Dependencies
+## Dependencies
 - Bash Terminal
 - Oh My Zsh.
 - Sublime Text / Or you need to find/replace
-
-#### Aliases List
+## Aliases List
 [Aliases list](https://github.com/mads-thines/ZSHRC-Aliases/wiki/Aliases-list)
-
-
-#### Setup
+## Setup
 - 1. Run the following command in your root folder where the .zsh file is located.
 ```
 git clone https://github.com/mads-thines/ZSHRC-Aliases.git .zsh-aliases
