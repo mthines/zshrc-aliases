@@ -4,12 +4,12 @@
 Using aliases decreases your workload by decreasing the amount of typing, which will increases your overall performance.
 Great, right?
 
+### [See the full list of aliases](https://github.com/mads-thines/ZSHRC-Aliases/wiki/Aliases-list)
+
 ### Dependencies
 - Bash Terminal
 - Oh My Zsh.
 - Sublime Text / Or you need to find/replace
-
-### [Aliases List](https://github.com/mads-thines/ZSHRC-Aliases/wiki/Aliases-list)
 
 ### Setup
 ##### 1. Run the following command in your root folder where the .zsh file is located.
