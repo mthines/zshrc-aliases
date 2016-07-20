@@ -1,32 +1,4 @@
 #
-# Restarters
-#
-alias rapache='sudo apachectl restart'
-alias rmysql='sudo mysql.server restart'
-alias rmacdock='killall -KILL Dock'
-
-#
-# MySQL
-#
-alias loaddump='mysql -uroot -p'
-
-#
-# Git Aliases
-#
-alias gds='git diff --staged'
-alias gln='git log --name-status'
-alias gull='git pull'
-alias gpl='git pull origin'
-alias gps='git push origin'
-alias gs='git stash'
-alias gsa='git stash apply'
-alias gsh='git show'
-alias gres='git reset'
-alias grev='git revert'
-alias gmn='git merge --no-ff'
-alias gutd='gfa && git pull'
-
-#
 # Drush Aliases
 #
 alias dr='drush'
@@ -51,7 +23,33 @@ alias .build='./build.sh'
 alias .install='./install.sh'
 
 #
+# Git Aliases
+#
+alias gds='git diff --staged'
+alias gln='git log --name-status'
+alias gull='git pull'
+alias gpl='git pull origin'
+alias gps='git push origin'
+alias gs='git stash'
+alias gsa='git stash apply'
+alias gsh='git show'
+alias gres='git reset'
+alias grev='git revert'
+alias gmn='git merge --no-ff'
+alias gutd='gfa && git pull'
+
+#
 # NPM Aliases
 #
 alias nrw='npm run watch'
 alias nins='npm install'
+
+#
+# MySQL
+#
+alias loaddump='mysql -uroot -p'
+
+#
+# Restarters
+#
+alias rmacdock='killall -KILL Dock'
