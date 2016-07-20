@@ -14,3 +14,9 @@ alias chosts='subl ~/../../private/etc/hosts'
 alias cdrush='subl ~/.drush/aliases.drushrc.php'
 alias refrezsh='. ~/.bashrc && . ~/.zshrc'
 alias findme='sudo find / -name'
+
+#
+# Restarters
+#
+alias rapache='sudo apachectl restart'
+alias rmysql='sudo mysql.server restart'
