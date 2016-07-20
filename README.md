@@ -9,8 +9,7 @@ Great, right?
 - Oh My Zsh.
 - Sublime Text / Or you need to find/replace
 
-### Aliases List
-[Aliases list](https://github.com/mads-thines/ZSHRC-Aliases/wiki/Aliases-list)
+### [Aliases List](https://github.com/mads-thines/ZSHRC-Aliases/wiki/Aliases-list)
 
 ### Setup
 ##### 1. Run the following command in your root folder where the .zsh file is located.
