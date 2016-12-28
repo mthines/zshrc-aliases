@@ -6,20 +6,26 @@ alias @sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster'
 alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
 alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
 alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
-alias @czsh='cd ~/.zsh-aliases'
+alias @dbs='cd ~/Sites/db-bk'
+alias @czsh='cd ~/.zshrc-aliases'
 alias @apache='cd ~/../../etc/apache2/extra'
-alias @solr='cd /usr/local/Cellar/solr4/4.10.4'
+alias @solr='cd ~/usr/local/Cellar/solr4/4.10.4'
+
+#
+# Fetch Project Aliases
+#
+alias f@sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster/modules/global/sportmaster_shared && gutd && gull && cd ../../.. && gutd && gull'
 
 #
 # General Aliases
 #
-alias czsh='subl ~/.zsh-aliases/.zshrc-aliases'
-alias czsh-persona='subl ~/.zsh-aliases/.zshrc-persona'
+alias czsh='subl ~/.zshrc-aliases/.zshrc-aliases'
+alias czsh-persona='subl ~/.zshrc-aliases/.zshrc-persona'
 alias czshrc='subl ~/.zshrc'
 alias capache='subl ~/../../etc/apache2/extra/httpd-vhosts.conf'
 alias chosts='subl ~/../../private/etc/hosts'
 alias cdrush='subl ~/.drush/aliases.drushrc.php'
-alias refrezsh='. ~/.bashrc && . ~/.zshrc'
+alias refrezsh='source ~/.bashrc && source ~/.zshrc'
 alias findme='sudo find / -name'
 
 #
@@ -27,3 +33,22 @@ alias findme='sudo find / -name'
 #
 alias rapache='sudo apachectl restart'
 alias rmysql='sudo mysql.server restart'
+alias rsolr='sudo /Users/mads/Workspace/solr-4.10.4/bin/solr restart -e multicore'
+
+#
+# Starters
+#
+alias ssolr='/Users/mads/Workspace/solr-4.10.4/bin/solr start -e multicore -noprompt'
+alias build@rz='~/Sites/loc.rezetstore.dk/build.sh'
+alias build@sm='~/Sites/loc.sportmaster.dk/build.sh'
+alias build@ss='~/Sites/sportmaster_service/build.sh'
+
+#
+# Drush Aliases
+alias dsm="drush @sm"
+alias drz="drush @rz"
+alias dss="drush @ss"
+
+#
+# Docker Drush Aliases
+alias ddsm="sm-drush"
