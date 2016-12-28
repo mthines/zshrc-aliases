@@ -8,27 +8,28 @@ alias dca='drush cc all'
 alias dcd='drush cc drush'
 alias dfra='drush fra -y'
 alias drr='drush rr'
-alias dfr='drush fr'
-alias dfd='drush fd'
+alias dfr='drush fr -y'
+alias dfd='drush fd -y'
 alias dfu='drush fu'
 alias badass='dcd && drr && dcd && dfra && dca'
 alias smartass='dcd && drr && drush updb -y && dcd && dfra && dca'
-alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 --yes'
 alias dencssjs='drush vset preprocess_css 1 --yes && drush vset preprocess_js 1 --yes'
+alias discssjs='drush vset preprocess_css 0 --yes && drush vset preprocess_js 0 --yes'
 alias dentdebug='drush vset theme_debug 1 && dca'
 alias distdebug='drush vset theme_debug 0 && dca'
 alias denmessages='drush vset -y error_level 1'
 alias dismessages='drush vset -y error_level 0'
 alias .build='./build.sh'
 alias .install='./install.sh'
+alias dropsql='dr sql-drop'
 
 #
 # Git Aliases
 #
 alias gds='git diff --staged'
 alias gln='git log --name-status'
-alias gull='git pull'
-alias gpl='git pull origin'
+alias gpl='git pull'
+alias gplo='git pull origin'
 alias gps='git push origin'
 alias gs='git stash'
 alias gsa='git stash apply'
@@ -37,12 +38,20 @@ alias grs='git reset'
 alias grv='git revert'
 alias gmn='git merge --no-ff'
 alias gutd='gfa && git pull'
+alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
 
 #
 # NPM Aliases
 #
 alias nrw='npm run watch'
 alias nins='npm install'
+
+#
+# Trash Replacer (Depending on rmtrash)
+#
+alias trash="rmtrash"
+alias del="rmtrash"
+alias rm="rmtrash"
 
 #
 # MySQL
@@ -53,3 +62,8 @@ alias loaddump='mysql -uroot -p'
 # Restarters
 #
 alias rmacdock='killall -KILL Dock'
+
+#
+# Others
+#
+alias realpath='grealpath'
