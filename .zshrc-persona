@@ -25,7 +25,8 @@ alias czshrc='subl ~/.zshrc'
 alias capache='subl ~/../../etc/apache2/extra/httpd-vhosts.conf'
 alias chosts='subl ~/../../private/etc/hosts'
 alias cdrush='subl ~/.drush/aliases.drushrc.php'
-alias refrezsh='source ~/.bashrc && source ~/.zshrc'
+alias refreash='source ~/.zshrc'
+alias refrezsh='source ~/.zshrc'
 alias findme='sudo find / -name'
 
 #
