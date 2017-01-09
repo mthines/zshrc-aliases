@@ -14,14 +14,15 @@ alias @solr='cd ~/usr/local/Cellar/solr4/4.10.4'
 #
 # Fetch Project Aliases
 #
-alias f@sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster/modules/global/sportmaster_shared && gutd && gull && cd ../../.. && gutd && gull'
+alias @htdocs='cd /d/xampp/htdocs'
+alias @rs='cd /d/xampp/htdocs/loc.ruskol.dk'
 
 #
 # General Aliases
 #
 alias czsh='subl ~/.zshrc-aliases/.zshrc-aliases'
 alias czsh-persona='subl ~/.zshrc-aliases/.zshrc-persona'
-alias czshrc='subl ~/.zshrc'
+alias czshrc='cd ~/.zshrc-aliases && subl .'
 alias capache='subl ~/../../etc/apache2/extra/httpd-vhosts.conf'
 alias chosts='subl ~/../../private/etc/hosts'
 alias cdrush='subl ~/.drush/aliases.drushrc.php'
