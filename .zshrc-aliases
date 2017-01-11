@@ -47,13 +47,6 @@ alias nrw='npm run watch'
 alias nins='npm install'
 
 #
-# Trash Replacer (Depending on rmtrash)
-#
-alias trash="rmtrash"
-alias del="rmtrash"
-alias rm="rmtrash"
-
-#
 # MySQL
 #
 alias loaddump='mysql -uroot -p'
