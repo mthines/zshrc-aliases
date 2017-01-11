@@ -1,6 +1,7 @@
 #
 # Jumpers
 #
+
 # Projects
 alias @rs='cd /d/xampp/htdocs/ruskol.dev'
 
@@ -10,7 +11,14 @@ alias @apache='cd /d/xampp/apache/conf/extra'
 alias @htdocs='cd /d/xampp/htdocs'
 
 #
-# General Aliases
+# General
+#
+alias refreash='source ~/.zshrc'
+alias refrezsh='source ~/.zshrc'
+alias findme='sudo find / -name'
+
+#
+# Change
 #
 alias czsh='cd ~/.zshrc-aliases && subl .zshrc-aliases'
 alias czsh-persona='cd ~/.zshrc-aliases && subl .zshrc-persona'
@@ -18,24 +26,20 @@ alias czshrc='cd ~/.zshrc-aliases && subl .'
 alias capache='cd /d/xampp/apache/conf/extra && sudo subl httpd-vhosts.conf'
 alias chosts='cd /c/Windows/System32/drivers/etc/ && open .'
 alias cdrush='subl ~/.drush/aliases.drushrc.php'
-alias refreash='source ~/.zshrc'
-alias refrezsh='source ~/.zshrc'
-alias findme='sudo find / -name'
-
-#
-# Restarters
-#
-alias rapache='sudo apachectl restart'
-alias rmysql='sudo mysql.server restart'
-alias rsolr='sudo /Users/mads/Workspace/solr-4.10.4/bin/solr restart -e multicore'
 
 #
 # Starters
 #
-alias ssolr='/Users/mads/Workspace/solr-4.10.4/bin/solr start -e multicore -noprompt'
-alias build@rz='~/Sites/loc.rezetstore.dk/build.sh'
-alias build@sm='~/Sites/loc.sportmaster.dk/build.sh'
-alias build@ss='~/Sites/sportmaster_service/build.sh'
+
+#
+# Restarters
+#
+# alias apache-start='sudo apachectl start'
+# alias apache-restart='sudo apachectl restart'
+# alias apache-stop='sudo apachectl stop'
+# alias mysql-start='sudo mysql.server start'
+# alias mysql-restart='sudo mysql.server restart'
+# alias mysql-stop='sudo mysql.server stop'
 
 #
 # Drush Aliases
