@@ -1,15 +1,16 @@
 #
 # Project Jumper - Go To ...
 #
-alias @rz='cd ~/Sites/loc.rezetstore.dk/htdocs/profiles/rezet'
-alias @sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster'
-alias @ss='cd ~/Sites/sportmaster_service/htdocs/profiles/sportmaster_service'
-alias @rc='cd ~/Sites/rudolph.dev/htdocs/profiles/rudolphcare'
-alias @mwu='cd ~/Sites/loc.madewith.unity.com/htdocs/profiles/mwu'
-alias @dbs='cd ~/Sites/db-bk'
+alias @workspace='cd ~/Workspace/Adapt'
+alias @rz='cd ~/Workspace/Adapt/rezetstore.dev/htdocs/profiles/rezet'
+alias @sm='cd ~/Workspace/Adapt/sportmaster.dev/htdocs/profiles/sportmaster'
+alias @ss='cd ~/Workspace/Adapt/sportmaster_service/htdocs/profiles/sportmaster_service'
+alias @rc='cd ~/Workspace/Adapt/rudolph.dev/htdocs/profiles/rudolphcare'
+alias @mwu='cd ~/Workspace/Adapt/loc.madewith.unity.com/htdocs/profiles/mwu'
+alias @dbs='cd ~/Workspace/Adapt/db-bk'
 alias @czsh='cd ~/.zshrc-aliases'
 alias @apache='cd ~/../../etc/apache2/extra'
-alias @solr='cd ~/usr/local/Cellar/solr4/4.10.4'
+alias @solr='cd /usr/local/Cellar/solr/4.7.0/libexec/example/multicore'
 
 #
 # Fetch Project Aliases
@@ -34,15 +35,11 @@ alias findme='sudo find / -name'
 #
 alias rapache='sudo apachectl restart'
 alias rmysql='sudo mysql.server restart'
-alias rsolr='sudo /Users/mads/Workspace/solr-4.10.4/bin/solr restart -e multicore'
 
 #
 # Starters
 #
-alias ssolr='/Users/mads/Workspace/solr-4.10.4/bin/solr start -e multicore -noprompt'
-alias build@rz='~/Sites/loc.rezetstore.dk/build.sh'
-alias build@sm='~/Sites/loc.sportmaster.dk/build.sh'
-alias build@ss='~/Sites/sportmaster_service/build.sh'
+alias build@sm='~/Workspace/Adapt/sportmaster.dev/build.sh'
 
 #
 # Drush Aliases

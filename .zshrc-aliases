@@ -38,6 +38,7 @@ alias grs='git reset'
 alias grv='git revert'
 alias gmn='git merge --no-ff'
 alias gutd='gfa && git pull'
+alias gdml='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
 alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
 
 #
@@ -51,7 +52,11 @@ alias nins='npm install'
 #
 alias trash="rmtrash"
 alias del="rmtrash"
-alias rm="rmtrash"
+
+#
+# Utilities
+#
+alias listen="sudo lsof -PiTCP -sTCP:LISTEN"
 
 #
 # MySQL
@@ -59,11 +64,12 @@ alias rm="rmtrash"
 alias loaddump='mysql -uroot -p'
 
 #
-# Restarters
+# Controllers
 #
 alias rmacdock='killall -KILL Dock'
+alias solr-start='daemon --chdir='/usr/local/Cellar/solr/4.7.0/libexec/example' --command "java -Dsolr.solr.home=multicore -jar start.jar" --respawn --output=/var/log/solr/solr.log --name=solr --verbose'
+alias solr-stop='daemon --stop --name=solr  --verbose'
+alias apache-start='sudo apachectl start'
+alias apache-restart='sudo apachectl restart'
+alias apache-stop='sudo apachectl stop'
 
-#
-# Others
-#
-alias realpath='grealpath'
