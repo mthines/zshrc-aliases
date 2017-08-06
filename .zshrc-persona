@@ -4,11 +4,13 @@
 
 # Projects
 alias @rs='cd /d/xampp/htdocs/ruskol.dev'
+alias @xampp='cd /d/xampp'
 
 # Tools
 alias @czsh='cd ~/.zshrc-aliases'
 alias @apache='cd /d/xampp/apache/conf/extra'
 alias @htdocs='cd /d/xampp/htdocs'
+alias @workspace='cd /d/madst/Workspace'
 
 #
 # General
