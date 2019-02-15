@@ -19,7 +19,7 @@ echo "source ~/zshrc-aliases/.zshrc-persona" >> ~/.zshrc && echo "source ~/zshrc
 ```
 ##### Or add the following lines in the bottom of your .zsh file
 ```
-source ~/.zsh-aliases/.zshrc-persona
-source ~/.zsh-aliases/.zshrc-aliases
+source ~/.zshrc-aliases/.zshrc-persona
+source ~/.zshrc-aliases/.zshrc-aliases
 ```
 ##### 4. Reopen your terminal and enjoy the aliases for a faster workflow.
