@@ -1,9 +1,17 @@
 #
+# Docksal/Fin Aliases
+#
+alias f='fin'
+alias fd='fin drush'
+alias fdr='fin drush cr'
+alias fe='fin exec'
+
+#
 # Drush Aliases
 #
 alias dr='drush'
 alias den='drush en'
-alias dis='drush dis'
+alias dis='drush pm-uninstall'
 alias dca='drush cc all'
 alias dcd='drush cc drush'
 alias dfra='drush fra -y'
@@ -22,24 +30,49 @@ alias dismessages='drush vset -y error_level 0'
 alias .build='./build.sh'
 alias .install='./install.sh'
 alias dropsql='dr sql-drop'
+alias ddr='ddr'
 
 #
 # Git Aliases
 #
-alias gds='git diff --staged'
-alias gln='git log --name-status'
-alias gpl='git pull'
-alias gplo='git pull origin'
-alias gps='git push origin'
 alias gs='git stash'
 alias gsa='git stash apply'
-alias gsh='git show'
+alias gsp='git stash pop'
+alias gcm='gm -m'
+alias gfp='git format-patch -1'
+alias gds='git diff --staged'
+alias gplo='git pull origin'
+alias gpo='git push origin'
+alias gpa='git push --all'
 alias grs='git reset'
-alias grv='git revert'
-alias gmn='git merge --no-ff'
 alias gutd='gfa && git pull'
-alias gdml='git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d'
+alias gcln='gclean'
+alias gdm='git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches'
 alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
+alias gpc='gc -m "Post:Commit - Adding Linting Fixes"'
+
+#
+# Shortcuts
+#
+alias y='yarn'
+alias ya='yarn add'
+alias yad='yarn add -D'
+alias yag='yarn global add'
+alias ys='yarn start'
+alias yb='yarn build'
+alias yr='yarn release'
+alias yl='yarn lint'
+alias sb='serve -s build'
+alias rsy='rsync -av --progress'
+alias n='netlify'
+alias ns='netlify status'
+alias ni='netlify init'
+alias nd='netlify deploy'
+
+#
+# Patch
+#
+alias pth='patch -p1 <'
 
 #
 # NPM Aliases
@@ -69,7 +102,29 @@ alias loaddump='mysql -uroot -p'
 alias rmacdock='killall -KILL Dock'
 alias solr-start='daemon --chdir='/usr/local/Cellar/solr/4.7.0/libexec/example' --command "java -Dsolr.solr.home=multicore -jar start.jar" --respawn --output=/var/log/solr/solr.log --name=solr --verbose'
 alias solr-stop='daemon --stop --name=solr  --verbose'
-alias apache-start='sudo apachectl start'
-alias apache-restart='sudo apachectl restart'
-alias apache-stop='sudo apachectl stop'
 
+#
+# ImageMagick
+#
+alias imgcmprs='convert -strip -interlace Plane -quality 70%'
+
+# PhpSwapper
+alias swap-php71='brew unlink php54 && brew unlink php56 && brew unlink php71 && brew link php71'
+alias swap-php54='brew unlink php54 && brew unlink php56 && brew unlink php71 && brew link php54'
+
+# Apache
+alias apache-start='sudo apachectl -k start'
+alias apache-restart='sudo apachectl -k restart'
+alias apache-stop='sudo apachectl -k stop'
+
+# MySQL
+alias mysql-start='brew services start mysql'
+alias mysql-restart='brew services restart mysql'
+alias mysql-stop='brew services stop mysql'
+
+#
+# Functions
+#
+function ddr() {
+  docker-compose exec php drush "$@"
+}

@@ -1,45 +1,41 @@
 #
-# Project Jumper - Go To ...
+# Jumper
 #
-alias @workspace='cd ~/Workspace/Adapt'
-alias @rz='cd ~/Workspace/Adapt/rezetstore.dev/htdocs/profiles/rezet'
-alias @sm='cd ~/Workspace/Adapt/sportmaster.dev/htdocs/profiles/sportmaster'
-alias @ss='cd ~/Workspace/Adapt/sportmaster_service/htdocs/profiles/sportmaster_service'
-alias @rc='cd ~/Workspace/Adapt/rudolph.dev/htdocs/profiles/rudolphcare'
-alias @mwu='cd ~/Workspace/Adapt/loc.madewith.unity.com/htdocs/profiles/mwu'
-alias @dbs='cd ~/Workspace/Adapt/db-bk'
+## Projects
+alias @feTools='cd ~/Workspace/Adapt/fe_tools'
+alias @tjm='cd ~/Workspace/Adapt/tjm-forsikring'
+alias @tjmTheme='cd ~/Workspace/Adapt/tjm-forsikring/themes/custom/tjm'
+alias @tryg='cd ~/Workspace/Adapt/tryg'
+alias @trygTheme='cd ~/Workspace/Adapt/tryg/themes/custom/tryg/projects/tryg_forsikring'
+alias @ouTheme='cd ~/Workspace/Adapt/ou_dk/themes/custom/tryg/projects/tryg_forsikring'
+alias @tradono='cd ~/Workspace/Adapt/tradono'
+
+# Settings
+alias @apache='cd ~/usr/local/etc/httpd'
+alias @workspace='cd ~/Workspace'
+alias @adapt='cd ~/Workspace/Adapt'
+alias @madsthines='cd ~/Workspace/madsthines'
 alias @czsh='cd ~/.zshrc-aliases'
-alias @apache='cd ~/../../etc/apache2/extra'
-alias @solr='cd /usr/local/Cellar/solr/4.7.0/libexec/example/multicore'
 
 #
-# Fetch Project Aliases
+# Opener
 #
-alias f@sm='cd ~/Sites/loc.sportmaster.dk/htdocs/profiles/sportmaster/modules/global/sportmaster_shared && gutd && gull && cd ../../.. && gutd && gull'
+alias debugchrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222'
+alias dchrome='debugchrome'
+alias dch='debugchrome'
 
 #
 # General Aliases
 #
-alias czsh='subl ~/.zshrc-aliases/.zshrc-aliases'
-alias czsh-persona='subl ~/.zshrc-aliases/.zshrc-persona'
-alias czshrc='subl ~/.zshrc'
-alias capache='subl ~/../../etc/apache2/extra/httpd-vhosts.conf'
-alias chosts='subl ~/../../private/etc/hosts'
-alias cdrush='subl ~/.drush/aliases.drushrc.php'
-alias refreash='source ~/.zshrc'
+alias change-zsh='code ~/.zshrc-aliases/.zshrc-aliases'
+alias change-zsh-persona='code ~/.zshrc-aliases/.zshrc-persona'
+alias change-zshrc='code ~/.zshrc'
+alias change-apache='code /usr/local/etc/httpd/extra/httpd-vhosts.conf'
+alias change-hosts='code /private/etc/hosts'
+alias change-drush='code ~/.drush/aliases.drushrc.php'
 alias refrezsh='source ~/.zshrc'
-alias findme='sudo find / -name'
 
-#
-# Restarters
-#
-alias rapache='sudo apachectl restart'
-alias rmysql='sudo mysql.server restart'
-
-#
-# Starters
-#
-alias build@sm='~/Workspace/Adapt/sportmaster.dev/build.sh'
+alias findme='find / -name'
 
 #
 # Drush Aliases
@@ -50,3 +46,7 @@ alias dss="drush @ss"
 #
 # Docker Drush Aliases
 alias ddsm="sm-drush"
+
+#
+# Restarters
+alias raudio="sudo pkill coreaudiod"
