@@ -13,7 +13,7 @@ Great, right?
 ##### Run the following command in your root folder where the .zshrc file is located.
 ```bash
 test -f ~/.oh-my-zsh/custom/aliases || mkdir ~/.oh-my-zsh/custom/aliases
-cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git
+cd ~/.oh-my-zsh/custom/aliases && git clone https://github.com/mthines/zshrc-aliases.git
 
 echo "
 # ZSHRC Aliases
