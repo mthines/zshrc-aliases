@@ -25,4 +25,7 @@ echo "
 source ~/.oh-my-zsh/custom/aliases/zshrc-aliases/.zshrc-aliases
 " >> ~/.zshrc
 ```
-##### 4. Reopen your terminal and enjoy the aliases for a faster workflow.
+### And then run or reopen your terminal and enjoy the aliases for a faster workflow.
+```bash
+source ~/.zshrc
+```
