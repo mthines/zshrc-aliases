@@ -11,13 +11,12 @@ Great, right?
 
 ### Setup
 ##### Run the following command in your root folder where the .zshrc file is located.
-```
-git clone https://github.com/mthines/ZSHRC-Aliases.git .zshrc-aliases
-echo "source ~/.zshrc-aliases/.zshrc-persona" >> ~/.zshrc && echo "source ~/.zshrc-aliases/.zshrc-aliases" >> ~/.zshrc
+```bash
+cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git
+echo "source ~/.oh-my-zsh/custom/aliases/zshrc-aliases/.zshrc-aliases" >> ~/.zshrc
 ```
 ##### Or add the following lines in the bottom of your .zsh file
-```
-source ~/.zshrc-aliases/.zshrc-persona
-source ~/.zshrc-aliases/.zshrc-aliases
+```bash
+source ~/.oh-my-zsh/custom/aliases/zshrc-aliases/.zshrc-aliases
 ```
 ##### 4. Reopen your terminal and enjoy the aliases for a faster workflow.
