@@ -12,9 +12,8 @@ Great, right?
 ### Setup
 ##### Run the following command in your root folder where the .zshrc file is located.
 ```bash
-test -f ~/.oh-my-zsh/custom/aliases
-&& cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git
-|| mkdir ~/.oh-my-zsh/custom/aliases && cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git
+test -f ~/.oh-my-zsh/custom/aliases && echo 'cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git' || 'mkdir ~/.oh-my-zsh/custom/aliases && cd ~/.oh-my-zsh/custom/aliases && git clone git@github.com:mthines/zshrc-aliases.git'
+
 echo "
 # ZSHRC Aliases
 source ~/.oh-my-zsh/custom/aliases/zshrc-aliases/.zshrc-aliases
