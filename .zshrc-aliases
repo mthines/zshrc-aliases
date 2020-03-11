@@ -3,6 +3,7 @@ alias gs='git stash'
 alias gsa='git stash apply'
 alias gsp='git stash pop'
 alias gcm='gm -m'
+alias gcn='gm --no-verify -m'
 alias gfp='git format-patch -1'
 alias gds='git diff --staged'
 alias gplo='git pull origin'
@@ -15,6 +16,12 @@ alias gdm='git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches 
 alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
 alias gpc='gc -m "Post:Commit - Adding Linting Fixes"'
 
+# WSL
+alias gh="explorer.exe https://github.$(git config remote.origin.url | cut -f2 -d. | tr ':' /)"
+
+# Naviation
+alias e="explorer.exe"
+
 # Yarn
 alias y='yarn'
 alias ya='yarn add'
@@ -25,7 +32,12 @@ alias yb='yarn build'
 alias yr='yarn release'
 alias yl='yarn lint'
 alias yr='yarn release'
+alias yo='yarn outdated'
+alias yu='yarn upgrade --latest'
+alias yui='yarn upgrade-interactive --latest'
 alias sb='serve -s build'
+
+
 alias rsy='rsync -av --progress'
 
 # Netlify
