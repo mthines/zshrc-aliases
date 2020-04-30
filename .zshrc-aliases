@@ -14,7 +14,6 @@ alias gutd='gfa && git pull'
 alias gcln='gclean'
 alias gdm='git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches'
 alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
-alias gpc='gc -m "Post:Commit - Adding Linting Fixes"'
 
 # WSL
 alias gh="explorer.exe https://github.$(git config remote.origin.url | cut -f2 -d. | tr ':' /)"
@@ -30,6 +29,7 @@ alias yag='yarn global add'
 alias ys='yarn start'
 alias yb='yarn build'
 alias yr='yarn release'
+alias yrci='yarn release:ci'
 alias yl='yarn lint'
 alias yr='yarn release'
 alias yo='yarn outdated'
