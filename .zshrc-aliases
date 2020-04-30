@@ -38,7 +38,6 @@ alias yu='yarn upgrade --latest'
 alias yui='yarn upgrade-interactive --latest'
 alias sb='serve -s build'
 
-
 alias rsy='rsync -av --progress'
 
 # Netlify
