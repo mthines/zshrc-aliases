@@ -31,6 +31,7 @@ alias ys='yarn start'
 alias yb='yarn build'
 alias yd='yarn dev'
 alias yr='yarn release'
+alias yrci='yarn release:ci'
 alias yl='yarn lint'
 alias yr='yarn release'
 alias yrci='yarn release:ci'
@@ -38,7 +39,6 @@ alias yo='yarn outdated'
 alias yu='yarn upgrade --latest'
 alias yui='yarn upgrade-interactive --latest'
 alias sb='serve -s build'
-
 
 alias rsy='rsync -av --progress'
 
