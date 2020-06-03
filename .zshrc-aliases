@@ -12,9 +12,9 @@ alias gpa='git push --all'
 alias grs='git reset'
 alias gutd='gfa && git pull'
 alias gcln='gclean'
+# Delete Merged Branches
 alias gdm='git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches'
 alias gbdate='git for-each-ref --sort="-authordate:iso8601" --format=" %(authordate:iso8601)%09%(refname)" refs/heads'
-alias gpc='gc -m "Post:Commit - Adding Linting Fixes"'
 
 # WSL
 alias gh="explorer.exe https://github.$(git config remote.origin.url | cut -f2 -d. | tr ':' /)"
@@ -33,6 +33,7 @@ alias yd='yarn dev'
 alias yr='yarn release'
 alias yl='yarn lint'
 alias yr='yarn release'
+alias yrci='yarn release:ci'
 alias yo='yarn outdated'
 alias yu='yarn upgrade --latest'
 alias yui='yarn upgrade-interactive --latest'
