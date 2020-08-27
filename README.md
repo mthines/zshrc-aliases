@@ -31,3 +31,8 @@ source ~/.oh-my-zsh/custom/aliases/zshrc-aliases/.zshrc-aliases
 ```bash
 source ~/.zshrc
 ```
+
+### Recommended other plugins
+
+- https://github.com/wting/autojump
+
