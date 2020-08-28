@@ -35,4 +35,5 @@ source ~/.zshrc
 ### Recommended other plugins
 
 - https://github.com/wting/autojump
+- https://github.com/zsh-users/zsh-autosuggestions
 
