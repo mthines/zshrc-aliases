@@ -36,4 +36,5 @@ source ~/.zshrc
 
 - https://github.com/wting/autojump
 - https://github.com/zsh-users/zsh-autosuggestions
+- zsh-syntax-highlighting
 
