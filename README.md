@@ -34,7 +34,10 @@ source ~/.zshrc
 
 ### Recommended other plugins
 
+https://safjan.com/top-popular-zsh-plugins-on-github/
+
 - https://github.com/wting/autojump
 - https://github.com/zsh-users/zsh-autosuggestions
+- https://github.com/bobthecow/git-flow-completion
 - zsh-syntax-highlighting
 
